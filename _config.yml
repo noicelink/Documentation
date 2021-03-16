@@ -1,6 +1,8 @@
 remote_theme: noicelink/jekyll.noice.link
 
-title: noice.link documentation
+title: noice.link Documentation
+description: A noice URL shortener
+author: noice.link
 
 markdown: kramdown
 
