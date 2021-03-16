@@ -16,7 +16,7 @@ Yes, [noice.link](https://noice.link) supports custom domains
 ![](https://ur-mom.is-ne.at/rq3Cch.png)
 - Click "Save changes"
 - Go to your DNS settings
-- Add a CNAME record pointing to `cname.noice.link`
+- Add a CNAME record pointing to `ec2-13-59-11-13.us-east-2.compute.amazonaws.com`
 - Wait for the DNS settings to propagate
 - Enjoy!
 
