@@ -1,5 +1,5 @@
-# Noice.link documentation
-Documentation for [noice.link](https://noice.link)
+# Welcome!
+Here you can find some info on [noice.link](https://noice.link) and the documentation for the API
 
 # FAQ
 - What is noice.link ? 
@@ -22,17 +22,12 @@ Documentation for [noice.link](https://noice.link)
   A link token is a token given to you when you create a short link without being logged in with a Discord account. With this token you can edit the link settings and add it to one or more accounts.
 
 # Errors
-- Slug taken (`001`)
-  The slug you're trying to get is taken
+- Slug taken (`001`) - The slug you're trying to get is taken
   
-- Why are you shortifying an already shortified link? (`002`)
-  The link is already shortened.
+- Why are you shortifying an already shortified link? (`002`) - The link is already shortened.
 
-- Invalid image URL (`003`)
-  The given image link is not a valid link
+- Invalid image URL (`003`) - The given image link is not a valid link
 
-- An error occured. Try logging in and out. `004`)
-  A weird error occured, try logging out and in.
+- An error occured. Try logging in and out. `004`) - A weird error occured, try logging out and in.
 
-- You dont own this link (`005`)
-  You don't own the link you're trying to edit.
+- You dont own this link (`005`) - You don't own the link you're trying to edit.
