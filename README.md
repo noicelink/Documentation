@@ -21,7 +21,7 @@ Documentation for [noice.link](https://noice.link)
 - What is a "Link token"? 
   A link token is a token given to you when you create a short link without being logged in with a Discord account. With this token you can edit the link settings and add it to one or more accounts.
 
-# API errors
+# Errors
 - Slug taken (`001`)
   The slug you're trying to get is taken
   
