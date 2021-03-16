@@ -6,20 +6,20 @@ Documentation for [Noice.link](htpps://noice.link)
 </div>
 ## FAQ
 - What is noice.link ? <br>
->> Noice.link is a customizable, fast, easy, and noice URL shortener <br>
+> Noice.link is a customizable, fast, easy, and noice URL shortener <br>
 <br>
 - How do i shorten link ? <br>
->> Visit [noice.link](Https://noice.link) <br>
->> Login your discord account(you can still create link without login with discord) <br>
->> enter url you wish to shorten to the field and click create a short url <br>
->> You're Done! <br>
+> Visit [noice.link](https://noice.link) <br>
+> Login your discord account(you can still create link without login with discord) <br>
+> enter url you wish to shorten to the field and click create a short url <br>
+> You're Done! <br>
 <br>
 - How to edit embed ? <br>
->> Click option before creating a short url <br>
->> fill all the option you want to <br>
+> Click option before creating a short url <br>
+> fill all the option you want to <br>
 <br>
 - What is link token ? <br>
->> link token is some random key that generated if you create link without login to discord<br>
+> link token is some random key that generated if you create link without login to discord<br>
 
 ## Error
 
