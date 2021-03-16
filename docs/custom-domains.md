@@ -1,6 +1,6 @@
 ---
 layout: default
-title: FAQ
+title: Custom domains
 nav_order: 3
 has_children: false
 permalink: /custom-domains
