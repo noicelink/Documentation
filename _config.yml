@@ -1,8 +1,8 @@
-remote_theme: "noicelink/jekyll.noice.link"
+remote_theme: pmarsceill/just-the-docs
 
-title: "noice.link Documentation"
-description: "A noice URL shortener"
-author: "noice.link"
+title: noice.link Documentation
+description: A noice URL shortener
+author: noice.link
 
 markdown: kramdown
 
