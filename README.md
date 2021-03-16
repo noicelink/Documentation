@@ -1,2 +1,2 @@
 # Noice.link Documentation
-Documention for [Noice.link](htpps://noice.link)
+Documentation for [Noice.link](htpps://noice.link)
