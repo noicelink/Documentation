@@ -1,0 +1,9 @@
+remote_theme: userd-official/userd-theme
+
+title: noice.link documentation
+
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
