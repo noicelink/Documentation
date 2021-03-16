@@ -3,7 +3,7 @@ layout: default
 title: FAQ
 nav_order: 3
 has_children: false
-permalink: /custom domains
+permalink: /custom-domains
 ---
 
 ## Custom domains
