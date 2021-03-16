@@ -6,22 +6,34 @@ Documentation for [Noice.link](htpps://noice.link)
 </div>
 
 ## FAQ
-- What is noice.link ? <br>
-> Noice.link is a customizable, fast, easy, and noice URL shortener <br>
-<br>
-- How do i shorten link ? <br>
-> Visit <a href="https://noice.link">noice.link</a> <br>
-> Login your discord account(you can still create link without login with discord) <br>
-> enter url you wish to shorten to the field and click create a short url <br>
-> You're Done! <br>
-<br>
-- How to edit embed ? <br>
-> Click option before creating a short url <br>
-> fill all the option you want to <br>
-<br>
-- What is link token ? <br>
-> link token is some random key that generated if you create link without login to discord<br>
+- What is noice.link ? 
+  - Noice.link is a customizable, fast, easy, and noice URL shortener 
+
+- How do i shorten link ? 
+  - Visit <a href="https://noice.link">noice.link</a> 
+  - Login with your discord account (you can still create link without login with discord) 
+  - enter url you wish to shorten to the field and click create a short url 
+  - You're Done! 
+
+- How to edit embed ? 
+  - Click option before creating a short url 
+  - fill all the option you want to 
+
+- What is link token ? 
+  - link token is some random key that generated if you create link without login to discord
 
 ## Error
-
+- slug taken (001)
+  - the error say it, the slug you want to use is taken
   
+- Why are you shortifying an already shortified link?(002)
+  - the link is already shortened
+
+- Invalid image URL (003)
+  - make sure to use direct image link
+
+- An error occured (004)
+  - try to log out and log in again
+
+- You dont own this link (005) 
+   - you dont have access to edit the link, make sure you logged in with discord
