@@ -13,6 +13,7 @@ Required parameters:
 
 - `slug` (string): The link's slug
 - `url` (string): The unshortified URL
+- `token` (string): The link token
 
 Optional parameters:
 
@@ -31,6 +32,7 @@ Example payload:
     image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png"
     slug: "free-nitro",
     title: "Yes free nitro",
+    domain: "go.macedon.ga",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     token: "eyASNOnjds..."
 }
