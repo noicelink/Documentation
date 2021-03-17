@@ -11,11 +11,11 @@ nav_order: 1
 Creates a new short URL\
 Required parameters:
 
-- `slug` (string): The link's slug
 - `url` (string): The unshortified URL
 
 Optional parameters:
 
+- `slug` (string): A custom slug
 - `title` (string): The preview's title
 - `description` (string): The preview's description
 - `image` (string): The preview's image
