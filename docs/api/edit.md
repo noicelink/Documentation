@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Register a URL
+title: Edit a URL
 parent: API
-nav_order: 1
+nav_order: 2
 ---
 
-# Register a URL
+# Edit a URL
 
 `POST` https://noice.link/api/url\
 Edits a short URL\
@@ -23,7 +23,7 @@ Optional parameters:
 
 Example payload:
 
-{% highlight JS %}
+{% capture some_var %}
 
 ```JS
 {
@@ -36,11 +36,11 @@ Example payload:
 }
 ```
 
-{% endhighlight %}
+{% endcapture %}
 
 Example response:
 
-{% highlight JS %}
+{% capture some_var %}
 
 ```JS
 {
@@ -48,7 +48,7 @@ Example response:
 }
 ```
 
-{% endhighlight %}
+{% endcapture %}
 
 Possible error codes:\
 [Here](https://docs.noice.link/errors)
