@@ -26,7 +26,7 @@ Example payload:
 {% highlight JS %}
 {
     description: "poggers",
-    image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png"
+    image: "https://cdn.macedon.ga/image.png"
     slug: "free-nitro",
     title: "Yes free nitro",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
@@ -39,7 +39,7 @@ Example response:
 {% highlight JS %}
 {
     description: "poggers",
-    image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png",
+    image: "https://cdn.macedon.ga/image.png",
     slug: "qixof",
     title: "Yes free nitro",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
