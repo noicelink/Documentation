@@ -17,7 +17,6 @@ Required parameters:
 Optional parameters:
 
 - `title` (string): The preview's title
-- `title` (string): The preview's title
 - `description` (string): The preview's description
 - `image` (string): The preview's image
 - `domain` (string): Custom domain name ([more info here](/custom-domains))
