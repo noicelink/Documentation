@@ -23,26 +23,30 @@ Optional parameters:
 Example payload:
 
 {% highlight JS %}
+
+<!-- prettier-ignore -->
 {
-description: "poggers",
-image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png"
-slug: "free-nitro",
-title: "Yes free nitro",
-url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    description: "poggers",
+    image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png"
+    slug: "free-nitro",
+    title: "Yes free nitro",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
 }
 {% endhighlight %}
 
 Example response:
 
 {% highlight JS %}
+
+<!-- prettier-ignore -->
 {
-description: "poggers",
-image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png",
-slug: "qixof",
-title: "Yes free nitro",
-url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-token: "eyASNOnjds...",
-\_id: "6052093f64e617001508c07a"
+    description: "poggers",
+    image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png",
+    slug: "qixof",
+    title: "Yes free nitro",
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    token: "eyASNOnjds...",
+    \_id: "6052093f64e617001508c07a"
 }
 {% endhighlight %}
 

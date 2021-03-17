@@ -23,10 +23,9 @@ Optional parameters:
 - `domain` (string): Custom domain name ([more info here](/custom-domains))
 
 Example payload:
+{% highlight JS %}
 
-{% capture some_var %}
-
-```JS
+<!-- prettier-ignore -->
 {
     description: "poggers",
     image: "https://d33wubrfki0l68.cloudfront.net/f9876141461caf644453abcc5918309b95b135f7/ace2a/assets/classic.png"
@@ -36,21 +35,18 @@ Example payload:
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     token: "eyASNOnjds..."
 }
-```
-
-{% endcapture %}
+{% endhighlight %}
 
 Example response:
 
-{% capture some_var %}
+{% highlight JS %}
 
-```JS
+<!-- prettier-ignore -->
 {
     success: true
 }
-```
 
-{% endcapture %}
+{% endhighlight %}
 
 Possible error codes:\
 [Here](https://docs.noice.link/errors)
