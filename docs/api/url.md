@@ -9,11 +9,11 @@ nav_order: 1
 
 `POST` https://noice.link/api/url\
 Creates a new short URL\
-Required parameters:
+Required payload parameters:
 
 - `url` (string): The unshortified URL
 
-Optional parameters:
+Optional payload parameters:
 
 - `slug` (string): A custom slug
 - `title` (string): The preview's title

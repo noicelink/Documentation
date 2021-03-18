@@ -9,13 +9,16 @@ nav_order: 2
 
 `POST` https://noice.link/api/url\
 Edits a short URL\
-Required parameters:
+Required payload parameters:
 
 - `slug` (string): The link's slug
 - `url` (string): The unshortified URL
-- `token` (string): The link token
 
-Optional parameters:
+Required headers:
+
+- `Authorization` (string): The link token
+
+Optional payload parameters:
 
 - `title` (string): The preview's title
 - `description` (string): The preview's description
@@ -32,8 +35,7 @@ Example payload:
     slug: "free-nitro",
     title: "Yes free nitro",
     domain: "go.macedon.ga",
-    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
-    token: "eyASNOnjds..."
+    url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 }
 {% endhighlight %}
 
