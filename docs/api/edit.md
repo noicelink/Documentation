@@ -7,7 +7,7 @@ nav_order: 2
 
 # Edit a URL
 
-`POST` https://noice.link/api/url\
+`POST` https://noice.link/api/edit\
 Edits a short URL\
 Required payload parameters:
 
