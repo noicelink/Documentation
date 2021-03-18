@@ -11,7 +11,6 @@ nav_order: 2
 Edits a short URL\
 Required payload parameters:
 
-- `slug` (string): The link's slug
 - `url` (string): The unshortified URL
 
 Required headers:
