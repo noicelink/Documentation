@@ -9,22 +9,23 @@ nav_order: 2
 
 `POST` https://noice.link/api/edit\
 Edits a short URL\
-Required payload parameters:
+
+### Required payload parameters:
 
 - `url` (string): The unshortified URL
 
-Required headers:
+### Required headers:
 
 - `Authorization` (string): The link token
 
-Optional payload parameters:
+### Optional payload parameters:
 
 - `title` (string): The preview's title
 - `description` (string): The preview's description
 - `image` (string): The preview's image
 - `domain` (string): Custom domain name ([more info here](/custom-domains))
 
-Example payload:
+### Example payload:
 
 <!-- prettier-ignore -->
 {% highlight JS %}
@@ -38,7 +39,18 @@ Example payload:
 }
 {% endhighlight %}
 
-Example response:
+### cURL request example
+
+<!-- prettier-ignore -->
+{% highlight %}
+curl --request POST \
+ --url https://noice.link/api/edit \
+ --header 'Authorization: YOUR_LINK_TOKEN' \
+ --header 'Content-Type: application/json'
+ --data '{"url": "https://macedon.ga"}'
+{% endhighlight %}
+
+### Example response:
 
 <!-- prettier-ignore -->
 {% highlight JS %}
@@ -48,5 +60,6 @@ Example response:
 
 {% endhighlight %}
 
-Possible error codes:\
+### Possible error codes:\
+
 [Here](https://docs.noice.link/errors)

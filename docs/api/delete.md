@@ -9,11 +9,21 @@ nav_order: 3
 
 `DELETE` https://noice.link/api/url\
 Deletes a short URL\
-Required headers:
+
+### Required headers:
 
 - `Authorization` (string): The link token
 
-Example response:
+### cURL request example
+
+<!-- prettier-ignore -->
+{% highlight %}
+curl --request DELETE \
+ --url https://noice.link/api/url \
+ --header 'Authorization: YOUR_LINK_TOKEN' \
+{% endhighlight %}
+
+### Example response:
 
 <!-- prettier-ignore -->
 {% highlight JS %}
@@ -23,5 +33,6 @@ Example response:
 
 {% endhighlight %}
 
-Possible error codes:\
+### Possible error codes:\
+
 [Here](https://docs.noice.link/errors)

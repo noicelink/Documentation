@@ -9,18 +9,20 @@ nav_order: 1
 
 `POST` https://noice.link/api/url\
 Creates a new short URL\
-Required payload parameters:
+
+### Required payload parameters:
 
 - `url` (string): The unshortified URL
 
-Optional payload parameters:
+### Optional payload parameters:
 
 - `slug` (string): A custom slug
 - `title` (string): The preview's title
 - `description` (string): The preview's description
 - `image` (string): The preview's image
+- `color` (string): The embed color in HEX format (e.g.: "#ff00ff")
 
-Example payload:
+### Example payload:
 
 <!-- prettier-ignore -->
 {% highlight JS %}
@@ -30,10 +32,22 @@ Example payload:
     slug: "free-nitro",
     title: "Yes free nitro",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    color: "#ffffff"
 }
 {% endhighlight %}
 
-Example response:
+### cURL request example
+
+<!-- prettier-ignore -->
+{% highlight %}
+curl --request POST \
+ --url https://noice.link/api/url \
+ --header 'Authorization: YOUR_LINK_TOKEN' \
+ --header 'Content-Type: application/json'
+ --data '{"url": "https://macedon.ga"}'
+{% endhighlight %}
+
+### Example response:
 
 <!-- prettier-ignore -->
 {% highlight JS %}
@@ -44,9 +58,10 @@ Example response:
     title: "Yes free nitro",
     url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
     token: "eyASNOnjds...",
-    \_id: "6052093f64e617001508c07a"
+    color: "#ffffff"
 }
 {% endhighlight %}
 
-Possible error codes:\
+### Possible error codes:\
+
 [Here](https://docs.noice.link/errors)
