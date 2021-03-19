@@ -57,6 +57,6 @@ curl --request GET \
 }
 {% endhighlight %}
 
-### Possible error codes:\
+### Possible error codes:
 
 [Here](https://docs.noice.link/errors)
