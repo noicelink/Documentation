@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Delete a URL
+title: Get URL info
 parent: API
 nav_order: 3
 ---
