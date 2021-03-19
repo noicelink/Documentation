@@ -42,7 +42,7 @@ Edits a short URL\
 ### cURL request example
 
 <!-- prettier-ignore -->
-{% highlight %}
+{% highlight sh %}
 curl --request POST \
  --url https://noice.link/api/edit \
  --header 'Authorization: YOUR_LINK_TOKEN' \

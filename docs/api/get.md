@@ -23,7 +23,7 @@ There are 2 ways to use this endpoint:
 
 #### cURL request example
 
-{% highlight %}
+{% highlight sh %}
 curl --request GET \
  --url https://noice.link/api/url \
  --header 'Authorization: YOUR_LINK_TOKEN' \
@@ -37,7 +37,7 @@ curl --request GET \
 
 #### cURL request example
 
-{% highlight %}
+{% highlight sh %}
 curl --request GET \
  --url https://noice.link/api/url?slug=your_slug \
 {% endhighlight %}

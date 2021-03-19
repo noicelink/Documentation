@@ -17,7 +17,7 @@ Deletes a short URL\
 ### cURL request example
 
 <!-- prettier-ignore -->
-{% highlight %}
+{% highlight sh %}
 curl --request DELETE \
  --url https://noice.link/api/url \
  --header 'Authorization: YOUR_LINK_TOKEN' \

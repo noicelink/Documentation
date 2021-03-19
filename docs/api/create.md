@@ -39,7 +39,7 @@ Creates a new short URL\
 ### cURL request example
 
 <!-- prettier-ignore -->
-{% highlight %}
+{% highlight sh %}
 curl --request POST \
  --url https://noice.link/api/url \
  --header 'Authorization: YOUR_LINK_TOKEN' \
