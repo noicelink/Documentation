@@ -5,7 +5,7 @@ parent: API
 nav_order: 3
 ---
 
-# Delete a URL
+# Get URL info
 
 `GET` https://noice.link/api/url\
 Gets a short URL info\
